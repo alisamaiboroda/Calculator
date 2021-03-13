@@ -3,9 +3,6 @@ let input1 = document.getElementById("number-1");
 let input2 = document.getElementById("number-2");
 
 function makeOperation(operationCode) {
-  console.log(operationCode);
-  console.log(operationCode === "+");
-
   let number1 = Number(input1.value);
   let number2 = Number(input2.value);
   let result;
